@@ -17,3 +17,4 @@ C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.csprojResolveAssemblyReference.cache
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.Properties.Resources.resources
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.csproj.GenerateResource.Cache
+C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.MainForm.resources
