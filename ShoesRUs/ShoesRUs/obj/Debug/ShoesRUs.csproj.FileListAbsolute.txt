@@ -1,0 +1,11 @@
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\bin\Debug\ShoesRUs.exe.config
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\bin\Debug\ShoesRUs.exe
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\bin\Debug\ShoesRUs.pdb
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.csprojResolveAssemblyReference.cache
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.Properties.Resources.resources
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.csproj.GenerateResource.Cache
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.exe
+H:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.pdb
+F:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\bin\Debug\ShoesRUs.exe.config
+F:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.exe
+F:\Year 2\Team Project\v1.0.0\ShoesRUs\ShoesRUs\obj\Debug\ShoesRUs.pdb
