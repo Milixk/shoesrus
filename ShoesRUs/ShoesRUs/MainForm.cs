@@ -16,6 +16,7 @@ namespace ShoesRUs
         public MainForm()
         {
             InitializeComponent();
+            Startup su = new Startup();
         }
     }
 }

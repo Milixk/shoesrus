@@ -9,9 +9,6 @@ namespace ShoesRUs
 {
     class DatabaseConnection
     {
-        public static readonly string
-          dbsource = "Provider=Microsoft.ACE.OLEDB.12.0;" +
-          @"Data Source = " + Application.StartupPath +
-          @"\ShoesRUsDB.accdb";
+        public static readonly string dbsource = "Provider=Microsoft.ACE.OLEDB.12.0;" + @"Data Source = " + Application.StartupPath + @"\ShoesRUsDB.accdb";
     }
 }
