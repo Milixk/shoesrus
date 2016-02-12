@@ -7,3 +7,13 @@ C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csproj.GenerateResource.Cache
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.exe
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.0\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.pdb
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\bin\x86\Debug\ShoesRUs.exe.config
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.exe
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.pdb
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\bin\x86\Debug\ShoesRUs.exe
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\bin\x86\Debug\ShoesRUs.pdb
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csprojResolveAssemblyReference.cache
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.MainForm.resources
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.Properties.Resources.resources
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.Register.resources
+C:\Users\Morgan\Documents\GitHub\v1.0.1\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csproj.GenerateResource.Cache

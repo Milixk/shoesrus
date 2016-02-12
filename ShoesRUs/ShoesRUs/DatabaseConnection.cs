@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace ShoesRUs
 {
@@ -12,8 +11,18 @@ namespace ShoesRUs
     {
         public static readonly string dbconnect = "Provider=Microsoft.ACE.OLEDB.12.0;" + @"Data Source = " + Application.StartupPath + @"\ShoesRUsDB.accdb";
 
-        OleDbConnection dbCon = new OleDbConnection(dbconnect);
+        /*
 
+            DO NOT USE THE CODE BELOW!
+
+            CHECK THE REGISTER FORM AS EXAMPLE!
+
+
+        */
+
+        //OleDbConnection dbCon = new OleDbConnection(dbconnect);
+
+        /*
         //SELECT specified data from the database with no WHERE criteria
         public OleDbDataReader getData(string table, string selectedColumn)
         {
@@ -82,5 +91,6 @@ namespace ShoesRUs
             int rowsChanged = dbCmd.ExecuteNonQuery();
             dbCon.Close();
         }
+        */
     }
 }

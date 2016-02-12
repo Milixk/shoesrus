@@ -26,7 +26,7 @@ namespace ShoesRUs
 
             string join = textBox3.Text + en.Encrypt(textBox7.Text) + "'";
 
-            dc.insertData(textBox2.Text, textBox1.Text, join);
+           // dc.insertData(textBox2.Text, textBox1.Text, join);
 
             MessageBox.Show("Data inserted");
         }
