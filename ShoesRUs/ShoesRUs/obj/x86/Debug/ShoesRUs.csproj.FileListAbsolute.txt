@@ -7,3 +7,4 @@ C:\shoes\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.Register.resources
 C:\shoes\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csproj.GenerateResource.Cache
 C:\shoes\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.exe
 C:\shoes\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.pdb
+C:\shoes\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csprojResolveAssemblyReference.cache

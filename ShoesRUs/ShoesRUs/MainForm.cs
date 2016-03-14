@@ -46,5 +46,11 @@ namespace ShoesRUs
         {
             ListInsert(1, "shoe1");
         }
+
+        private void listView_Click(object sender, EventArgs e)
+        {
+            if (listView.SelectedItems.Count > 0)
+                MessageBox.Show("You clicked " + listView.SelectedItems[0].Text);
+        }
     }
 }

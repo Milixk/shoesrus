@@ -98,6 +98,7 @@
             this.listView.SmallImageList = this.imageList;
             this.listView.TabIndex = 0;
             this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.Click += new System.EventHandler(this.listView_Click);
             // 
             // imageList
             // 
