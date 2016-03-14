@@ -19,6 +19,17 @@ namespace ShoesRUs
             Startup su = new Startup();
         }
 
+        public void ListInsert(int ID, string name)
+        {
+            listView.Items.Add(name, ID);
+        }
+
+        public void ListClear()
+        {
+            listView.Items.Clear();
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             Login login = new Login();
@@ -31,5 +42,9 @@ namespace ShoesRUs
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ListInsert(1, "shoe1");
+        }
     }
 }
