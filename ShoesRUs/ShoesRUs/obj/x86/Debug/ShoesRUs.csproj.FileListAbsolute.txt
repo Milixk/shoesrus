@@ -7,3 +7,6 @@ C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.3\shoesrus\ShoesRUs\ShoesRUs\
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.3\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.csproj.GenerateResource.Cache
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.3\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.exe
 C:\Users\Morgan\Documents\GitHub\ShoesRUsMain\v1.0.3\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.pdb
+C:\Users\Aaron\Documents\GitHub\shoesrus\ShoesRUs\ShoesRUs\bin\x86\Debug\ShoesRUs.exe.config
+C:\Users\Aaron\Documents\GitHub\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.exe
+C:\Users\Aaron\Documents\GitHub\shoesrus\ShoesRUs\ShoesRUs\obj\x86\Debug\ShoesRUs.pdb
