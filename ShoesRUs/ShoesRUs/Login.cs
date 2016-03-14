@@ -9,9 +9,13 @@ namespace ShoesRUs
 {
     class Login
     {
+        //User Details
         private User user;
+        //Logged In Status
         private bool loggedIn = false;
 
+
+        //Set user to logged in and get details
         public void setLoggedIn(int custID)
         {
             user = new User();
@@ -19,12 +23,15 @@ namespace ShoesRUs
             loggedIn = true;
         }
 
+
+        //Logout the user
         public void logOut()
         {
             user.Clear();
             loggedIn = false;
         }
 
+        //Check the user email and password on the system and return a true or false customer ID
         public int loggingIn(string email, string password)
         {
             int customerID = -999;
@@ -50,6 +57,7 @@ namespace ShoesRUs
             return customerID;
         }
 
+        //Return the LoggedIn Status
         public bool checkLoggedIn()
         {
             return loggedIn;
