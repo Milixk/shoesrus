@@ -20,6 +20,20 @@ namespace ShoesRUs
 
         }
 
+
+        // public function for adding shoes into listview
+        public void ListInsert(int ID, string name)
+        {
+            listView.Items.Add(name, ID);
+        }
+
+        // public function for clearing list
+        public void ListClear()
+        {
+            listView.Items.Clear();
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             Login login = new Login();
@@ -32,6 +46,7 @@ namespace ShoesRUs
             }
         }
 
+<<<<<<< HEAD
         OleDbConnection myConn = new OleDbConnection();
 
 
@@ -94,5 +109,18 @@ namespace ShoesRUs
         private void button13_Click(object sender, EventArgs e)
         {
 
+=======
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ListInsert(1, "shoe1");
+            // testing button
+        }
+
+        // click item in listview -> open items page
+        private void listView_Click(object sender, EventArgs e)
+        {
+            if (listView.SelectedItems.Count > 0)
+                MessageBox.Show("You clicked " + listView.SelectedItems[0].Text);
+>>>>>>> origin/listview
         }
     }
