@@ -3,29 +3,59 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.OleDb;
 
 namespace ShoesRUs
 {
     class User
     {
-        private bool loggedIn = false;
+        //User Data
         private int custID;
         private string custTitle, custName, custDOB, custGender, custEmail, custPhone, custAddNo, custAddSt, custAddCit, custAddCou, custPoCo, custCaTy, custCaNo, custCaCVV, custCaName, custCaEx;
         private bool admin = false;
 
-        public void Get()
+        //Update the User Data
+        public void Update(int custID)
         {
+            OleDbConnection dbCon = new OleDbConnection(DatabaseConnection.dbconnect);
+
+            dbCon.ConnectionString = DatabaseConnection.dbconnect;
+            OleDbCommand dbCmd = dbCon.CreateCommand();
+
+            dbCmd.CommandText = "SELECT * FROM Customer WHERE CustomerID = @CustomerID";
+            dbCmd.Parameters.AddWithValue("CustomerID", custID);
+
+            dbCon.Open();
+            OleDbDataReader reader = dbCmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                this.custID = Convert.ToInt32(reader[0]);
+                custTitle = reader[1].ToString();
+                custName = reader[2].ToString();
+                custDOB = reader[3].ToString();
+                custGender = reader[4].ToString();
+                custEmail = reader[5].ToString();
+                custPhone = reader[6].ToString();
+                custAddNo = reader[7].ToString();
+                custAddSt = reader[8].ToString();
+                custAddCit = reader[9].ToString();
+                custAddCou = reader[10].ToString();
+                custPoCo = reader[11].ToString();
+                custCaTy = reader[12].ToString();
+                custCaNo = reader[13].ToString();
+                custCaCVV = reader[14].ToString();
+                custCaName = reader[15].ToString();
+                custCaEx = reader[16].ToString();
+                admin = Convert.ToBoolean(reader[18]);
+            }
+            reader.Close();
 
         }
 
-        public void Update()
-        {
-
-        }
-
+        //Clear the User Data
         public void Clear()
         {
-            loggedIn = false;
             custID = -999;
             custTitle = null;
             custName = null;
