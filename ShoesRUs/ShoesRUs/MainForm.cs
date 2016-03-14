@@ -20,15 +20,15 @@ namespace ShoesRUs
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {            
-            DatabaseConnection dc = new DatabaseConnection();
-            Encryption en = new Encryption();
-
-            string join = textBox3.Text + en.Encrypt(textBox7.Text) + "'";
-
-           // dc.insertData(textBox2.Text, textBox1.Text, join);
-
-            MessageBox.Show("Data inserted");
+        {
+            Login login = new Login();
+            if(login.loggingIn(textBox1.Text, textBox2.Text) != -999)
+            {
+                MessageBox.Show("Logged in successfully!");
+            } else
+            {
+                MessageBox.Show("Login credentials not found!");
+            }
         }
 
     }
