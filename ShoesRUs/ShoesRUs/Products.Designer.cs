@@ -259,7 +259,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(89, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Home";
+            this.button3.Text = "S";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // Products
