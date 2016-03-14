@@ -19,11 +19,14 @@ namespace ShoesRUs
             Startup su = new Startup();
         }
 
+
+        // public function for adding shoes into listview
         public void ListInsert(int ID, string name)
         {
             listView.Items.Add(name, ID);
         }
 
+        // public function for clearing list
         public void ListClear()
         {
             listView.Items.Clear();
@@ -45,8 +48,10 @@ namespace ShoesRUs
         private void button2_Click(object sender, EventArgs e)
         {
             ListInsert(1, "shoe1");
+            // testing button
         }
 
+        // click item in listview -> open items page
         private void listView_Click(object sender, EventArgs e)
         {
             if (listView.SelectedItems.Count > 0)
